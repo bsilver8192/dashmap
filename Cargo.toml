@@ -24,3 +24,7 @@ rayon = { version = "1.5.2", optional = true }
 
 [package.metadata.docs.rs]
 features = ["rayon", "raw-api", "serde"]
+
+[[bin]]
+name = "stress_test"
+path = "src/stress_test.rs"
